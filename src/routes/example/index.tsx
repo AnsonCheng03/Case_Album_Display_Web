@@ -13,13 +13,9 @@ export default component$(() => {
   const imageSource = useSignal([]);
 
   const fetchImageSource = $(() => {
-    return fetch(
-      location.url.origin +
-        "/Images.json" +
-        "?t=" +
-        Date.now(),
-      { cache: "no-store" },
-    );
+    return fetch(location.url.origin + "/Images.json" + "?t=" + Date.now(), {
+      cache: "no-store",
+    });
   });
 
   useVisibleTask$(async () => {
