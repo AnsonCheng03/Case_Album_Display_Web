@@ -35,11 +35,11 @@ export default component$(() => {
               <h3 class={styles.contactMethodTitle}>Instagram</h3>
               <div>
                 <Link
-                  href="https://www.instagram.com/skylight_engg_901/"
+                  href="https://www.instagram.com/skylight.hongkong/"
                   target="_blank"
                   class={styles.contactMethodLink}
                 >
-                  @skylight_engg_901
+                  @skylight.hongkong
                 </Link>
               </div>
             </div>

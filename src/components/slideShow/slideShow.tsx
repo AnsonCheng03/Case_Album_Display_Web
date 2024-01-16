@@ -45,7 +45,7 @@ export default component$(({ photos, fullScreenSlideshow }: any) => {
                                   target.offsetHeight / 2,
                                 behavior: "smooth",
                               });
-                            }, 1000);
+                            }, 750);
                           }
                         } else {
                           target.classList.remove(styles.highlight);

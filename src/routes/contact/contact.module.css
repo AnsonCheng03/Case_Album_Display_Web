@@ -75,6 +75,7 @@
   width: 100%;
   max-width: 80vw;
   aspect-ratio: 1.618;
+  margin-top: 10px;
   border: none;
   border-radius: 8px;
   overflow: hidden;

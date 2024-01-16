@@ -72,7 +72,7 @@ export default component$(() => {
             onClick$={() => {
               window.open(
                 "mailto:contact@skylightengineering.com.hk",
-                "_blank",
+                "_blank"
               );
             }}
             q:key="0f_0"
@@ -83,7 +83,7 @@ export default component$(() => {
             class={styles.icon}
             onClick$={() => {
               window.open(
-                "https://www.instagram.com/skylight_engg_901/",
+                "https://www.instagram.com/skylight.hongkong/",
                 "_blank"
               );
             }}
@@ -98,8 +98,8 @@ export default component$(() => {
             class={styles.icon}
             onClick$={() => {
               window.open(
-                "https://www.instagram.com/skylight_engg_901/",
-                "_blank",
+                "https://www.instagram.com/skylight.hongkong/",
+                "_blank"
               );
             }}
             q:key="90_0"
