@@ -31,6 +31,8 @@ jobs:
     steps:
       - name: Setup Node.js for use with actions
         uses: actions/setup-node@v1
+        with:
+          node-version: *
 
       - name: 🚚 Get latest code
         uses: actions/checkout@v3
