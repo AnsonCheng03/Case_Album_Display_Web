@@ -1,0 +1,1 @@
+import{v as a}from"./root2.js";import{A as s}from"./root2.js";const l=o=>{const[t,n,c]=a();t(o).then(e=>{n.value=e[0].clientX,c.value=e[0].clientY})};export{s as _hW,l as hero_component_handleTouchStart_Q6pH9Kv8TFg};

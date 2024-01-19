@@ -1,0 +1,1 @@
+import{v as t}from"./root2.js";import{A as a}from"./root2.js";const n=()=>{var e;const[o]=t();return fetch(o.url.origin+`${typeof process<"u"&&((e=process==null?void 0:process.env)==null?void 0:e.BASE_URL_PATH)||""}/Images.json?t=`+Date.now(),{cache:"no-store"})};export{a as _hW,n as example_component_fetchImageSource_Pij01qm0iSM};

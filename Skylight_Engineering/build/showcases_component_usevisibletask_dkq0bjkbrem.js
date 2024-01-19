@@ -1,0 +1,1 @@
+import{v as t}from"./root2.js";import{A as l}from"./root2.js";const c=({track:s})=>{var o;const[p,e]=t();s(()=>{e.photos.value}),p.value=e.type||((o=e.photos.value[0])==null?void 0:o.type)};export{l as _hW,c as showCases_component_useVisibleTask_Dkq0bJkbREM};

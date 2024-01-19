@@ -1,0 +1,1 @@
+import{v as o}from"./root2.js";import{A as p}from"./root2.js";const r=()=>{const[t,e,a]=o();t.value=!0,typeof e.value<"u"&&clearInterval(e.value),e.value=setInterval(a,3500)};export{p as _hW,r as hero_component_start_autoplay_nSS7s47PUtk};
