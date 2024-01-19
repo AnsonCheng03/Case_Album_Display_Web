@@ -27,7 +27,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    env:
+    variables:
       BASE_URL_PATH: /Skylight_Engineering
     runs-on: ubuntu-latest
     steps:
