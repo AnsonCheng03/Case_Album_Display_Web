@@ -13,13 +13,9 @@ export default component$(() => {
   const imageSource = useSignal([]);
 
   const fetchImageSource = $(() => {
-    return fetch(
-      location.url.origin +
-        "/Skylight_Engineering/Images.json" +
-        "?t=" +
-        Date.now(),
-      { cache: "no-store" },
-    );
+    return fetch(location.url.origin + "/Images.json" + "?t=" + Date.now(), {
+      cache: "no-store",
+    });
   });
 
   useVisibleTask$(async () => {
@@ -28,7 +24,7 @@ export default component$(() => {
       const data = await res.json();
       const modifiedData = data.map((item: any) => ({
         ...item,
-        path: location.url.origin + "/Skylight_Engineering" + item.path,
+        path: location.url.origin + "/" + item.path,
       }));
       imageSource.value = modifiedData;
     } catch (error) {

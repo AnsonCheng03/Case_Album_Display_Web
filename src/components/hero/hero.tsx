@@ -32,8 +32,9 @@ export default component$(({ photos }: any) => {
   //slideshow controls
   const next_slide = $(() => {
     // move the first child in hero-slideshow to the last child
-    const firstChild = document.querySelector(`.${styles.heroSlideshow}`)
-      ?.firstElementChild;
+    const firstChild = document.querySelector(
+      `.${styles.heroSlideshow}`,
+    )?.firstElementChild;
     if (firstChild)
       document
         .querySelector(`.${styles.heroSlideshow}`)
@@ -44,10 +45,12 @@ export default component$(({ photos }: any) => {
 
   const prev_slide = $(() => {
     // move the last child in hero-slideshow to the first child
-    const firstChild = document.querySelector(`.${styles.heroSlideshow}`)
-      ?.firstElementChild;
-    const lastChild = document.querySelector(`.${styles.heroSlideshow}`)
-      ?.lastElementChild;
+    const firstChild = document.querySelector(
+      `.${styles.heroSlideshow}`,
+    )?.firstElementChild;
+    const lastChild = document.querySelector(
+      `.${styles.heroSlideshow}`,
+    )?.lastElementChild;
 
     if (firstChild && lastChild)
       document
@@ -110,9 +113,8 @@ export default component$(({ photos }: any) => {
       photos.value;
     });
 
-    images.value = photos.value.flatMap(
-      (photo: any) =>
-        photo.Slideshow?.map((slide: any) => photo.path + "/" + slide),
+    images.value = photos.value.flatMap((photo: any) =>
+      photo.Slideshow?.map((slide: any) => photo.path + "/" + slide),
     );
 
     // remove all intervals when load
