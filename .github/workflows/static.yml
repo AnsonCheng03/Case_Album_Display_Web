@@ -27,8 +27,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    variables:
-      BASE_URL_PATH: /Skylight_Engineering
     runs-on: ubuntu-latest
     steps:
       - name: Setup Node.js for use with actions
