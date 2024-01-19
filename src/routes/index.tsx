@@ -13,10 +13,12 @@ export default component$(() => {
   const fetchImageSource = $(() => {
     return fetch(
       location.url.origin +
-        `${process.env.BASE_URL_PATH}/Images.json` +
+        `${
+          (typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || ""
+        }/Images.json` +
         "?t=" +
         Date.now(),
-      { cache: "no-store" },
+      { cache: "no-store" }
     );
   });
 

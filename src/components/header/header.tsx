@@ -15,13 +15,16 @@ export default component$(() => {
       <div class={styles.blur}></div>
       <ul class={styles.menu}>
         <li class={styles.menuItem}>
-          <Link href={`${process.env.BASE_URL_PATH}/`} class={styles.link}>
+          <Link
+            href={`${(typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || ""}/`}
+            class={styles.link}
+          >
             首頁
           </Link>
         </li>
         <li class={styles.menuItem}>
           <Link
-            href={`${process.env.BASE_URL_PATH}/example`}
+            href={`${(typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || ""}/example`}
             class={styles.link}
           >
             裝修案例
@@ -29,7 +32,7 @@ export default component$(() => {
         </li>
         <li class={styles.menuItem}>
           <Link
-            href={`${process.env.BASE_URL_PATH}/contact`}
+            href={`${(typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || ""}/contact`}
             class={styles.link}
           >
             聯絡我們
