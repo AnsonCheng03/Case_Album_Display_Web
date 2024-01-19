@@ -15,17 +15,23 @@ export default component$(() => {
       <div class={styles.blur}></div>
       <ul class={styles.menu}>
         <li class={styles.menuItem}>
-          <Link href={"/"} class={styles.link}>
+          <Link href={`${process.env.BASE_URL_PATH}/`} class={styles.link}>
             首頁
           </Link>
         </li>
         <li class={styles.menuItem}>
-          <Link href={"/example"} class={styles.link}>
+          <Link
+            href={`${process.env.BASE_URL_PATH}/example`}
+            class={styles.link}
+          >
             裝修案例
           </Link>
         </li>
         <li class={styles.menuItem}>
-          <Link href={"/contact"} class={styles.link}>
+          <Link
+            href={`${process.env.BASE_URL_PATH}/contact`}
+            class={styles.link}
+          >
             聯絡我們
           </Link>
         </li>

@@ -27,6 +27,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+      BASE_URL_PATH: /Skylight_Engineering
     runs-on: ubuntu-latest
     steps:
       - name: Setup Node.js for use with actions
@@ -44,7 +45,7 @@ jobs:
         run: yarn add sharp --ignore-engines
 
       - name: Build app
-        run: yarn build && yarn build.server
+        run: yarn build.github && yarn build.server.github
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3

@@ -13,9 +13,13 @@ export default component$(() => {
   const imageSource = useSignal([]);
 
   const fetchImageSource = $(() => {
-    return fetch(location.url.origin + "/Images.json" + "?t=" + Date.now(), {
-      cache: "no-store",
-    });
+    return fetch(
+      location.url.origin +
+        `${process.env.BASE_URL_PATH}/Images.json` +
+        "?t=" +
+        Date.now(),
+      { cache: "no-store" },
+    );
   });
 
   useVisibleTask$(async () => {
@@ -24,7 +28,7 @@ export default component$(() => {
       const data = await res.json();
       const modifiedData = data.map((item: any) => ({
         ...item,
-        path: location.url.origin + "/" + item.path,
+        path: location.url.origin + `${process.env.BASE_URL_PATH}/` + item.path,
       }));
       imageSource.value = modifiedData;
     } catch (error) {

@@ -18,7 +18,7 @@ export default component$(({ photos }: any) => {
                 onClick$={() => {
                   const url = new URL(loc.url.href);
                   // if env is dev, use localhost:8080
-                  url.pathname = "/example";
+                  url.pathname = `${process.env.BASE_URL_PATH}/example`;
                   url.searchParams.set("type", photo.type);
                   url.searchParams.set("name", photo.name);
                   nav(url.href);
