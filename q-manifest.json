@@ -1,5 +1,5 @@
 {
-  "manifestHash": "dl3j4q",
+  "manifestHash": "2qxcke",
   "symbols": {
     "QwikCityProvider_component_useTask_02wMImzEAbk": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
@@ -303,7 +303,7 @@
       "captures": false,
       "loc": [
         185,
-        1931
+        1989
       ]
     },
     "routes_component_xYL1qOwPyDI": {
@@ -650,8 +650,8 @@
       "captures": true,
       "parent": "examples_component_jYyS9IWa9Yk",
       "loc": [
-        640,
-        1043
+        698,
+        1101
       ]
     },
     "footer_component_footer_div_div_svg_onClick_1_cZ1kFhYyIpE": {
@@ -1095,7 +1095,7 @@
       ]
     },
     "examples_component_jyys9iwa9yk.js": {
-      "size": 2348,
+      "size": 2446,
       "imports": [
         "root2.js",
         "root_component_3sccycdd1z0.js"
