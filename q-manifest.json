@@ -1,5 +1,5 @@
 {
-  "manifestHash": "xvdddt",
+  "manifestHash": "cwnj6o",
   "symbols": {
     "QwikCityProvider_component_useTask_02wMImzEAbk": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
@@ -54,7 +54,7 @@
       "parent": "example_component_PZswLDq46H4",
       "loc": [
         924,
-        1274
+        1402
       ]
     },
     "hero_component_useVisibleTask_l6wsIrhHw4Q": {
@@ -186,7 +186,7 @@
       "captures": false,
       "loc": [
         318,
-        1726
+        1854
       ]
     },
     "QwikCityProvider_component_TxCFOy819ag": {
@@ -1083,7 +1083,7 @@
       ]
     },
     "example_component_usevisibletask_cpzmohpkfva.js": {
-      "size": 287,
+      "size": 401,
       "imports": [
         "root2.js"
       ],
