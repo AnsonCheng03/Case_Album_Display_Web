@@ -1,5 +1,5 @@
 {
-  "manifestHash": "w6cnmx",
+  "manifestHash": "9npjqp",
   "symbols": {
     "QwikCityProvider_component_useTask_02wMImzEAbk": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
@@ -82,7 +82,7 @@
       "parent": "routes_component_xYL1qOwPyDI",
       "loc": [
         745,
-        1086
+        1097
       ]
     },
     "footer_component_3lb9EjxI5sA": {
@@ -316,7 +316,7 @@
       "captures": false,
       "loc": [
         420,
-        1216
+        1227
       ]
     },
     "QwikCityProvider_component_useStyles_RPDJAz33WLA": {
@@ -1641,7 +1641,7 @@
       ]
     },
     "routes_component_usevisibletask_zqpxt8b27s0.js": {
-      "size": 282,
+      "size": 288,
       "imports": [
         "root2.js"
       ],
@@ -1653,7 +1653,7 @@
       ]
     },
     "routes_component_xyl1qowpydi.js": {
-      "size": 2210,
+      "size": 2212,
       "imports": [
         "root2.js",
         "root_component_3sccycdd1z0.js"
