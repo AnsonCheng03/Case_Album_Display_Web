@@ -4,7 +4,7 @@ import { Link } from "@builder.io/qwik-city";
 
 export default component$(() => {
   const basePATH =
-    (typeof process === "undefined" &&
+    (typeof process !== "undefined" &&
       (process as any).env.NODE_ENV != "development" &&
       import.meta.env.PUBLIC_BASE_URL) ||
     "";

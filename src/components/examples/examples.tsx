@@ -6,7 +6,7 @@ export default component$(({ photos }: any) => {
   const loc = useLocation();
   const nav = useNavigate();
   const basePATH =
-    (typeof process === "undefined" &&
+    (typeof process !== "undefined" &&
       (process as any).env.NODE_ENV != "development" &&
       import.meta.env.PUBLIC_BASE_URL) ||
     "";

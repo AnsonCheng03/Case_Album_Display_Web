@@ -10,7 +10,7 @@ export default component$(() => {
   const name = location.url.searchParams.get("name");
   const fullScreenSlideshow = useSignal<string | null>(null);
   const basePATH =
-    (typeof process === "undefined" &&
+    (typeof process !== "undefined" &&
       (process as any).env.NODE_ENV != "development" &&
       import.meta.env.PUBLIC_BASE_URL) ||
     "";
