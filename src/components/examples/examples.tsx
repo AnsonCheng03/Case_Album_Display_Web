@@ -8,7 +8,7 @@ export default component$(({ photos }: any) => {
   const basePATH =
     (typeof process !== "undefined" &&
       (process as any).env.NODE_ENV != "development" &&
-      process..env.PUBLIC_BASE_URL) ||
+      process.env.PUBLIC_BASE_URL) ||
     "";
   return (
     <section class={styles.examples}>

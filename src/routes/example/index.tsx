@@ -12,7 +12,7 @@ export default component$(() => {
   const basePATH =
     (typeof process !== "undefined" &&
       (process as any).env.NODE_ENV != "development" &&
-      process..env.PUBLIC_BASE_URL) ||
+      process.env.PUBLIC_BASE_URL) ||
     "";
 
   const imageSource = useSignal([]);
@@ -20,7 +20,7 @@ export default component$(() => {
   const fetchImageSource = $(() => {
     return fetch(
       location.url.origin + `${basePATH}/Images.json` + "?t=" + Date.now(),
-      { cache: "no-store" },
+      { cache: "no-store" }
     );
   });
 
