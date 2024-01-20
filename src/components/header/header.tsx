@@ -3,8 +3,7 @@ import styles from "./header.module.css";
 import { Link } from "@builder.io/qwik-city";
 
 export default component$(() => {
-  const basePATH =
-    (typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || "";
+  const basePATH = import.meta.env.PUBLIC_BASE_URL;
   return (
     <nav class={styles.nav}>
       <input type="checkbox" class={styles.hiddenCheckbox} />

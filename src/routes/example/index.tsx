@@ -9,8 +9,7 @@ export default component$(() => {
   const type = location.url.searchParams.get("type");
   const name = location.url.searchParams.get("name");
   const fullScreenSlideshow = useSignal<string | null>(null);
-  const basePATH =
-    (typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || "";
+  const basePATH = import.meta.env.PUBLIC_BASE_URL;
 
   const imageSource = useSignal([]);
 

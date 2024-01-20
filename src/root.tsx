@@ -14,8 +14,7 @@ export default component$(() => {
    *
    * Dont remove the `<head>` and `<body>` elements.
    */
-  const basePATH =
-    (typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || "";
+  const basePATH = import.meta.env.PUBLIC_BASE_URL;
 
   return (
     <QwikCityProvider>
