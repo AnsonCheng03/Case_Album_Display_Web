@@ -1,5 +1,5 @@
 {
-  "manifestHash": "dl3j4q",
+  "manifestHash": "t8ngzx",
   "symbols": {
     "QwikCityProvider_component_useTask_02wMImzEAbk": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
@@ -53,8 +53,8 @@
       "captures": true,
       "parent": "example_component_PZswLDq46H4",
       "loc": [
-        845,
-        1286
+        854,
+        1204
       ]
     },
     "hero_component_useVisibleTask_l6wsIrhHw4Q": {
@@ -81,8 +81,8 @@
       "captures": true,
       "parent": "routes_component_xYL1qOwPyDI",
       "loc": [
-        798,
-        1139
+        787,
+        1128
       ]
     },
     "footer_component_3lb9EjxI5sA": {
@@ -108,7 +108,7 @@
       "captures": false,
       "loc": [
         201,
-        781
+        888
       ]
     },
     "Link_component_8gdLBszqbaM": {
@@ -186,7 +186,7 @@
       "captures": false,
       "loc": [
         318,
-        1738
+        1656
       ]
     },
     "QwikCityProvider_component_TxCFOy819ag": {
@@ -251,7 +251,7 @@
       "captures": false,
       "loc": [
         163,
-        1297
+        1103
       ]
     },
     "floatingContact_component_dle9cTZNTpw": {
@@ -303,7 +303,7 @@
       "captures": false,
       "loc": [
         185,
-        1931
+        1964
       ]
     },
     "routes_component_xYL1qOwPyDI": {
@@ -316,7 +316,7 @@
       "captures": false,
       "loc": [
         420,
-        1269
+        1258
       ]
     },
     "QwikCityProvider_component_useStyles_RPDJAz33WLA": {
@@ -454,8 +454,8 @@
       "captures": true,
       "parent": "routes_component_xYL1qOwPyDI",
       "loc": [
-        531,
-        776
+        625,
+        765
       ]
     },
     "selectCase_component_jumpToCaseByQuery_IY5gY0QwJdY": {
@@ -566,8 +566,8 @@
       "captures": true,
       "parent": "example_component_PZswLDq46H4",
       "loc": [
-        598,
-        823
+        692,
+        832
       ]
     },
     "hero_component_handleTouchStart_Q6pH9Kv8TFg": {
@@ -650,8 +650,8 @@
       "captures": true,
       "parent": "examples_component_jYyS9IWa9Yk",
       "loc": [
-        640,
-        1043
+        734,
+        1076
       ]
     },
     "footer_component_footer_div_div_svg_onClick_1_cZ1kFhYyIpE": {
@@ -1049,7 +1049,7 @@
       ]
     },
     "example_component_fetchimagesource_pij01qm0ism.js": {
-      "size": 334,
+      "size": 240,
       "imports": [
         "root2.js"
       ],
@@ -1061,7 +1061,7 @@
       ]
     },
     "example_component_pzswldq46h4.js": {
-      "size": 2370,
+      "size": 2474,
       "imports": [
         "root2.js",
         "root_component_3sccycdd1z0.js"
@@ -1083,7 +1083,7 @@
       ]
     },
     "example_component_usevisibletask_cpzmohpkfva.js": {
-      "size": 387,
+      "size": 287,
       "imports": [
         "root2.js"
       ],
@@ -1095,7 +1095,7 @@
       ]
     },
     "examples_component_jyys9iwa9yk.js": {
-      "size": 2348,
+      "size": 2445,
       "imports": [
         "root2.js",
         "root_component_3sccycdd1z0.js"
@@ -1112,7 +1112,7 @@
       ]
     },
     "examples_component_section_div_div_div_onclick_ayoayfqwvdu.js": {
-      "size": 357,
+      "size": 263,
       "imports": [
         "root2.js"
       ],
@@ -1193,7 +1193,7 @@
       ]
     },
     "header_component_ceu05tscgye.js": {
-      "size": 2157,
+      "size": 1926,
       "imports": [
         "root2.js",
         "root_component_3sccycdd1z0.js"
@@ -1596,7 +1596,7 @@
       ]
     },
     "root_component_3sccycdd1z0.js": {
-      "size": 9217,
+      "size": 9333,
       "imports": [
         "root2.js"
       ],
@@ -1629,7 +1629,7 @@
       ]
     },
     "routes_component_fetchimagesource_hokcw92ockc.js": {
-      "size": 333,
+      "size": 239,
       "imports": [
         "root2.js"
       ],
@@ -1653,7 +1653,7 @@
       ]
     },
     "routes_component_xyl1qowpydi.js": {
-      "size": 2104,
+      "size": 2201,
       "imports": [
         "root2.js",
         "root_component_3sccycdd1z0.js"
