@@ -1,1 +1,0 @@
-import{v as i}from"./root2.js";const p=async(a,e)=>{const[t,r,o,s]=i();a.defaultPrevented&&(e.hasAttribute("q:nbs")?await t(location.href,{type:"popstate"}):e.href&&(e.setAttribute("aria-pressed","true"),await t(e.href,{forceReload:r,replaceState:o,scroll:s}),e.removeAttribute("aria-pressed")))};export{p as Link_component_handleClick_pIf0khHUxfY};

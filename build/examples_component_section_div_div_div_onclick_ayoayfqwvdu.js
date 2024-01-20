@@ -1,1 +1,0 @@
-import{v as n}from"./root2.js";const r=()=>{const[o,s,t,a]=n(),e=new URL(s.url.href);e.pathname=`${o}/example`,e.searchParams.set("type",a.type),e.searchParams.set("name",a.name),t(e.href)};export{r as examples_component_section_div_div_div_onClick_ayOAyFQWvdU};

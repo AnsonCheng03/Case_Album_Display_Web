@@ -1,1 +1,0 @@
-import{v as c}from"./root2.js";import{A as h}from"./root2.js";const v=o=>{const[l,e,n,u,i,s,a]=c();if(e.value)return;e.value=!0;const r=l.value;if(!a.value)return;const p=o.clientX,t=a.value-p;Math.abs(t)>50&&(s(),t>0?n():u(),r&&i()),a.value=null,setTimeout(()=>{e.value=!1},300)};export{h as _hW,v as hero_component_handleDragMove_pZ6aYyi1UbY};

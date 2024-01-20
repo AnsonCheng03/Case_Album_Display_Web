@@ -1,1 +1,0 @@
-import{v as t}from"./root2.js";import{A as s}from"./root2.js";const r=()=>{const[e,o]=t();return fetch(o.url.origin+`${e}/Images.json?t=`+Date.now(),{cache:"no-store"})};export{s as _hW,r as example_component_fetchImageSource_Pij01qm0iSM};

@@ -1,1 +1,0 @@
-import{v as c}from"./root2.js";const n=()=>{const[p,e,o]=c(),s=e.activeType.value!==o;e.activeType.value=o,s&&setTimeout(()=>{var t;p((t=e.photos.value.find(a=>a.type==o))==null?void 0:t.name,!1)},300)};export{n as selectCase_component_section_div_div_onClick_zSiRmJ0LnEQ};

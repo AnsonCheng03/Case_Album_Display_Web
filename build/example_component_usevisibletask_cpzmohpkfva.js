@@ -1,1 +1,0 @@
-import{v as n}from"./root2.js";import{A as h}from"./root2.js";const m=async()=>{const[e,t,a,c]=n(),s=await t();try{const i=(await s.json()).map(o=>({...o,path:c.url.origin+`${e}/`+o.path}));a.value=i}catch{a.value=[]}};export{h as _hW,m as example_component_useVisibleTask_cpzMohpkFvA};
