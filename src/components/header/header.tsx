@@ -3,6 +3,8 @@ import styles from "./header.module.css";
 import { Link } from "@builder.io/qwik-city";
 
 export default component$(() => {
+  const basePATH =
+    (typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || "";
   return (
     <nav class={styles.nav}>
       <input type="checkbox" class={styles.hiddenCheckbox} />
@@ -15,26 +17,17 @@ export default component$(() => {
       <div class={styles.blur}></div>
       <ul class={styles.menu}>
         <li class={styles.menuItem}>
-          <Link
-            href={`${(typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || ""}/`}
-            class={styles.link}
-          >
+          <Link href={`${basePATH}/`} class={styles.link}>
             首頁
           </Link>
         </li>
         <li class={styles.menuItem}>
-          <Link
-            href={`${(typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || ""}/example`}
-            class={styles.link}
-          >
+          <Link href={`${basePATH}/example`} class={styles.link}>
             裝修案例
           </Link>
         </li>
         <li class={styles.menuItem}>
-          <Link
-            href={`${(typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || ""}/contact`}
-            class={styles.link}
-          >
+          <Link href={`${basePATH}/contact`} class={styles.link}>
             聯絡我們
           </Link>
         </li>

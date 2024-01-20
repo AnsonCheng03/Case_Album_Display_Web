@@ -9,15 +9,14 @@ export default component$(() => {
   const type = location.url.searchParams.get("type");
   const name = location.url.searchParams.get("name");
   const fullScreenSlideshow = useSignal<string | null>(null);
+  const basePATH =
+    (typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || "";
 
   const imageSource = useSignal([]);
 
   const fetchImageSource = $(() => {
     return fetch(
-      location.url.origin +
-        `${(typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || ""}/Images.json` +
-        "?t=" +
-        Date.now(),
+      location.url.origin + `${basePATH}/Images.json` + "?t=" + Date.now(),
       { cache: "no-store" }
     );
   });
@@ -28,10 +27,7 @@ export default component$(() => {
       const data = await res.json();
       const modifiedData = data.map((item: any) => ({
         ...item,
-        path:
-          location.url.origin +
-          `${(typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || ""}/` +
-          item.path,
+        path: location.url.origin + `${basePATH}/` + item.path,
       }));
       imageSource.value = modifiedData;
     } catch (error) {

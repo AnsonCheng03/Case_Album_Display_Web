@@ -9,15 +9,12 @@ import Hero from "~/components/hero/hero";
 export default component$(() => {
   const location = useLocation();
   const imageSource = useSignal([[]]);
+  const basePATH =
+    (typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || "";
 
   const fetchImageSource = $(() => {
     return fetch(
-      location.url.origin +
-        `${
-          (typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || ""
-        }/Images.json` +
-        "?t=" +
-        Date.now(),
+      location.url.origin + `${basePATH}/Images.json` + "?t=" + Date.now(),
       { cache: "no-store" }
     );
   });

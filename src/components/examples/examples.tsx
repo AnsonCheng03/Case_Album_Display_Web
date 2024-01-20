@@ -5,6 +5,8 @@ import { useLocation, useNavigate } from "@builder.io/qwik-city";
 export default component$(({ photos }: any) => {
   const loc = useLocation();
   const nav = useNavigate();
+  const basePATH =
+    (typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || "";
   return (
     <section class={styles.examples}>
       <h2>案例分享</h2>
@@ -18,7 +20,7 @@ export default component$(({ photos }: any) => {
                 onClick$={() => {
                   const url = new URL(loc.url.href);
                   // if env is dev, use localhost:8080
-                  url.pathname = `${(typeof process !== "undefined" && process?.env?.BASE_URL_PATH) || ""}/example`;
+                  url.pathname = `${basePATH}/example`;
                   url.searchParams.set("type", photo.type);
                   url.searchParams.set("name", photo.name);
                   nav(url.href);

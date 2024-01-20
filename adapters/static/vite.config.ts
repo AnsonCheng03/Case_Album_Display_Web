@@ -12,7 +12,7 @@ export default extendConfig(baseConfig, ({ mode }) => {
     },
     plugins: [
       staticAdapter({
-        origin: mode == 'github' ? 'https://ansoncheng03.github.io/Skylight_Engineering/' : 'https://skylightengineering.com.hk/',
+        origin: mode == 'github' ? "https://ansoncheng03.github.io/Skylight_Engineering/" : "https://skylightengineering.com.hk/",
       }),
     ],
   };
