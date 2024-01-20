@@ -1,8 +1,11 @@
 import { staticAdapter } from '@builder.io/qwik-city/adapters/static/vite';
 import { extendConfig } from '@builder.io/qwik-city/vite';
 import baseConfig from '../../vite.config';
+import dotenv from 'dotenv'
 
-export default extendConfig(baseConfig, ({ mode }) => {
+dotenv.config()
+
+export default extendConfig(baseConfig, () => {
   return {
     build: {
       ssr: true,
@@ -12,7 +15,7 @@ export default extendConfig(baseConfig, ({ mode }) => {
     },
     plugins: [
       staticAdapter({
-        origin: mode == 'github' ? "https://ansoncheng03.github.io/Skylight_Engineering/" : "https://skylightengineering.com.hk/",
+        origin: process.env.PUBLIC_BASE_ORIGIN ?? "http://localhost:5500",
       }),
     ],
   };

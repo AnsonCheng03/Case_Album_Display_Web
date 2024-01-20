@@ -2,11 +2,14 @@ import { defineConfig } from "vite";
 import { qwikVite } from "@builder.io/qwik/optimizer";
 import { qwikCity } from "@builder.io/qwik-city/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
+import dotenv from 'dotenv'
 
-export default defineConfig(({ mode }) => {
+dotenv.config()
+
+export default defineConfig(() => {
   return {
     plugins: [qwikCity(), qwikVite(), tsconfigPaths()],
-    base: mode == 'github' ? "/Skylight_Engineering/" : undefined,
+    base: process.env.PUBLIC_BASE_URL,
     preview: {
       headers: {
         "Cache-Control": "public, max-age=600",
