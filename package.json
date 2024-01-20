@@ -7,11 +7,9 @@
   "private": true,
   "scripts": {
     "build": "qwik build",
-    "build.github": "qwik build --mode github",
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
     "build.server": "vite build -c adapters/static/vite.config.ts",
-    "build.server.github": "vite build -c adapters/static/vite.config.ts --mode github",
     "build.types": "tsc --incremental --noEmit",
     "deploy": "echo 'Run \"npm run qwik add\" to install a server adapter'",
     "dev": "vite --mode ssr",

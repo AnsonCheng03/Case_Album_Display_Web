@@ -49,7 +49,7 @@ jobs:
         run: yarn add sharp --ignore-engines
 
       - name: Build app
-        run: yarn build.github && yarn build.server.github
+        run: yarn build && yarn build.server
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
