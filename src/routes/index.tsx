@@ -9,7 +9,11 @@ import Hero from "~/components/hero/hero";
 export default component$(() => {
   const location = useLocation();
   const imageSource = useSignal([[]]);
-  const basePATH = import.meta.env.PUBLIC_BASE_URL;
+  const basePATH =
+    (typeof process === "undefined" &&
+      (process as any).env.NODE_ENV != "development" &&
+      import.meta.env.PUBLIC_BASE_URL) ||
+    "";
 
   const fetchImageSource = $(() => {
     return fetch(

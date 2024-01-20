@@ -5,7 +5,11 @@ import { useLocation, useNavigate } from "@builder.io/qwik-city";
 export default component$(({ photos }: any) => {
   const loc = useLocation();
   const nav = useNavigate();
-  const basePATH = import.meta.env.PUBLIC_BASE_URL;
+  const basePATH =
+    (typeof process === "undefined" &&
+      (process as any).env.NODE_ENV != "development" &&
+      import.meta.env.PUBLIC_BASE_URL) ||
+    "";
   return (
     <section class={styles.examples}>
       <h2>案例分享</h2>
