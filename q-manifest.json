@@ -1,5 +1,5 @@
 {
-  "manifestHash": "orrv1w",
+  "manifestHash": "j9h1rk",
   "symbols": {
     "QwikCityProvider_component_useTask_02wMImzEAbk": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
@@ -1061,7 +1061,7 @@
       ]
     },
     "example_component_pzswldq46h4.js": {
-      "size": 2501,
+      "size": 2423,
       "imports": [
         "root2.js",
         "root_component_3sccycdd1z0.js"
@@ -1095,7 +1095,7 @@
       ]
     },
     "examples_component_jyys9iwa9yk.js": {
-      "size": 2482,
+      "size": 2404,
       "imports": [
         "root2.js",
         "root_component_3sccycdd1z0.js"
@@ -1193,7 +1193,7 @@
       ]
     },
     "header_component_ceu05tscgye.js": {
-      "size": 1958,
+      "size": 1880,
       "imports": [
         "root2.js",
         "root_component_3sccycdd1z0.js"
@@ -1596,7 +1596,7 @@
       ]
     },
     "root_component_3sccycdd1z0.js": {
-      "size": 9367,
+      "size": 9268,
       "imports": [
         "root2.js"
       ],
@@ -1653,7 +1653,7 @@
       ]
     },
     "routes_component_xyl1qowpydi.js": {
-      "size": 2240,
+      "size": 2162,
       "imports": [
         "root2.js",
         "root_component_3sccycdd1z0.js"
