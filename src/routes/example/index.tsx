@@ -12,7 +12,7 @@ export default component$(() => {
   const basePATH =
     (typeof process !== "undefined" &&
       (process as any).env.NODE_ENV != "development" &&
-      import.meta.env.PUBLIC_BASE_URL) ||
+      process..env.PUBLIC_BASE_URL) ||
     "";
 
   const imageSource = useSignal([]);
