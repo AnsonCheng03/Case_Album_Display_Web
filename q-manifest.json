@@ -1,5 +1,5 @@
 {
-  "manifestHash": "tkbc0y",
+  "manifestHash": "orrv1w",
   "symbols": {
     "QwikCityProvider_component_useTask_02wMImzEAbk": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
@@ -108,7 +108,7 @@
       "captures": false,
       "loc": [
         201,
-        995
+        958
       ]
     },
     "Link_component_8gdLBszqbaM": {
@@ -1596,7 +1596,7 @@
       ]
     },
     "root_component_3sccycdd1z0.js": {
-      "size": 9393,
+      "size": 9367,
       "imports": [
         "root2.js"
       ],
