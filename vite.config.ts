@@ -3,10 +3,11 @@ import { qwikVite } from "@builder.io/qwik/optimizer";
 import { qwikCity } from "@builder.io/qwik-city/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
-export default defineConfig(({mode}) => {
+export default defineConfig(({ mode }) => {
+  process.env.BASE_URL_PATH = mode == 'github' ? '/Skylight_Engineering' : undefined;
   return {
     plugins: [qwikCity(), qwikVite(), tsconfigPaths()],
-    base: mode == 'github'?"/Skylight_Engineering/":undefined,
+    base: mode == 'github' ? "/Skylight_Engineering/" : undefined,
     preview: {
       headers: {
         "Cache-Control": "public, max-age=600",

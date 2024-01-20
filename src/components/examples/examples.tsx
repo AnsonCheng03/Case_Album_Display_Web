@@ -5,7 +5,6 @@ import { useLocation, useNavigate } from "@builder.io/qwik-city";
 export default component$(({ photos }: any) => {
   const loc = useLocation();
   const nav = useNavigate();
-  console.log("PATHNAME: ", process?.env?.BASE_URL_PATH);
   return (
     <section class={styles.examples}>
       <h2>案例分享</h2>

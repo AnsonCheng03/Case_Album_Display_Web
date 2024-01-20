@@ -3,7 +3,6 @@ import { extendConfig } from '@builder.io/qwik-city/vite';
 import baseConfig from '../../vite.config';
 
 export default extendConfig(baseConfig, ({ mode }) => {
-  process.env.BASE_URL_PATH = mode == 'github' ? '/Skylight_Engineering' : undefined;
   return {
     build: {
       ssr: true,
