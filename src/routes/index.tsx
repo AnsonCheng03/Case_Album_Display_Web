@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable no-unused-vars */
 import { component$, useSignal, $, useVisibleTask$ } from "@builder.io/qwik";
 import { type DocumentHead, useLocation } from "@builder.io/qwik-city";
 import AboutUs from "~/components/about-us/aboutUs";
@@ -18,7 +16,7 @@ export default component$(() => {
   const fetchImageSource = $(() => {
     return fetch(
       location.url.origin + `${basePATH}/Images.json` + "?t=" + Date.now(),
-      { cache: "no-store" }
+      { cache: "no-store" },
     );
   });
 

@@ -111,7 +111,8 @@ export default component$(() => {
         </div>
         <div>
           <p class={styles.subtitle}>
-            © 2023 Skylight Engineering (HK) Limited. All rights reserved.
+            Copyright © 2023 Skylight Engineering (HK) Limited. All rights
+            reserved.
           </p>
         </div>
       </div>

@@ -1,4 +1,3 @@
-/* eslint-disable qwik/jsx-img */
 import type { CSSProperties } from "@builder.io/qwik";
 import { $, component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 import { BsPause, BsPlay } from "@qwikest/icons/bootstrap";

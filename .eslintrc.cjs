@@ -34,7 +34,9 @@ module.exports = {
     "@typescript-eslint/ban-ts-comment": "off",
     "prefer-spread": "off",
     "no-case-declarations": "off",
-    "no-console": "off",
+    "no-console": "warn",
+    "qwik/jsx-img": "off",
+    "qwik/no-use-visible-task": "off",
     "@typescript-eslint/no-unused-vars": ["error"],
     "@typescript-eslint/consistent-type-imports": "warn",
     "no-unused-vars": [
