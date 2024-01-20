@@ -24,7 +24,7 @@ export default component$(() => {
       const data = await res.json();
       const modifiedData = data.map((item: any) => ({
         ...item,
-        path: location.url.origin + "/" + item.path,
+        path: location.url.origin + `${basePATH}/` + item.path,
       }));
       imageSource.value = modifiedData;
     } catch (error) {
