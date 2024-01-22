@@ -10,7 +10,7 @@ dotenv.config()
 export default defineConfig(() => {
   return {
     plugins: [qwikCity(), qwikVite(), tsconfigPaths()],
-    base: process.env.PUBLIC_BASE_URL ?? "/Skylight_Engineering/",
+    base: process.env.PUBLIC_BASE_URL ?? "/",
     preview: {
       headers: {
         "Cache-Control": "public, max-age=600",

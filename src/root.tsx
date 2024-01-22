@@ -14,17 +14,12 @@ export default component$(() => {
    *
    * Dont remove the `<head>` and `<body>` elements.
    */
-  const basePATH =
-    (typeof process !== "undefined" &&
-      (process as any).env.NODE_ENV != "development" &&
-      process.env.PUBLIC_BASE_URL) ||
-    "";
 
   return (
     <QwikCityProvider>
       <head>
         <meta charSet="utf-8" />
-        <link rel="manifest" href={`${basePATH}/manifest.json`} />
+        <link rel="manifest" href={`/manifest.json`} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body lang="en">
