@@ -70,7 +70,7 @@ export default component$(() => {
             onClick$={() => {
               window.open(
                 "mailto:contact@skylightengineering.com.hk",
-                "_blank"
+                "_blank",
               );
             }}
           >
@@ -96,7 +96,7 @@ export default component$(() => {
             onClick$={() => {
               window.open(
                 "https://www.instagram.com/skylight.hongkong/",
-                "_blank"
+                "_blank",
               );
             }}
           >

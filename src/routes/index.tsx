@@ -16,7 +16,7 @@ export default component$(() => {
   const fetchImageSource = $(() => {
     return fetch(
       location.url.origin + `${basePATH}/Images.json` + "?t=" + Date.now(),
-      { cache: "no-store" }
+      { cache: "no-store" },
     );
   });
 
