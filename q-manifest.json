@@ -1,5 +1,5 @@
 {
-  "manifestHash": "bbf5wj",
+  "manifestHash": "bb97wi",
   "symbols": {
     "s_02wMImzEAbk": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
@@ -108,7 +108,7 @@
       "captures": false,
       "loc": [
         201,
-        954
+        783
       ]
     },
     "s_8gdLBszqbaM": {
@@ -911,7 +911,7 @@
     "s_l6wsIrhHw4Q": "q-QClOv6cT.js",
     "s_zqpXT8B27s0": "q-JGBYg2Mt.js",
     "s_3lb9EjxI5sA": "q-vkP2JYAM.js",
-    "s_3sccYCDd1Z0": "q-z4e-CG4N.js",
+    "s_3sccYCDd1Z0": "q-P0aHZkmH.js",
     "s_8gdLBszqbaM": "q-6-nUy7ng.js",
     "s_EpknaQ0Jdho": "q-trxcXflD.js",
     "s_FMO00A0rUWQ": "q-kJHPxuT7.js",
@@ -1153,19 +1153,6 @@
         "s_Oiogz3xVO64"
       ]
     },
-    "q-fibQ43AX.js": {
-      "size": 339,
-      "imports": [
-        "q-m2PSkFjv.js"
-      ],
-      "dynamicImports": [
-        "q-z4e-CG4N.js"
-      ],
-      "origins": [
-        "src/global.css",
-        "src/root.tsx"
-      ]
-    },
     "q-fziW6KTG.js": {
       "size": 135,
       "imports": [
@@ -1339,6 +1326,19 @@
         "node_modules/@builder.io/qwik/core.min.mjs"
       ]
     },
+    "q-Mm16m1_W.js": {
+      "size": 339,
+      "imports": [
+        "q-m2PSkFjv.js"
+      ],
+      "dynamicImports": [
+        "q-P0aHZkmH.js"
+      ],
+      "origins": [
+        "src/global.css",
+        "src/root.tsx"
+      ]
+    },
     "q-nFJzFNmB.js": {
       "size": 6010,
       "imports": [
@@ -1401,6 +1401,20 @@
       ],
       "symbols": [
         "s_dle9cTZNTpw"
+      ]
+    },
+    "q-P0aHZkmH.js": {
+      "size": 465,
+      "imports": [
+        "q-By_1o8vi.js",
+        "q-m2PSkFjv.js"
+      ],
+      "origins": [
+        "src/entry_root.js",
+        "src/s_3sccycdd1z0.js"
+      ],
+      "symbols": [
+        "s_3sccYCDd1Z0"
       ]
     },
     "q-QClOv6cT.js": {
@@ -1572,20 +1586,6 @@
       ],
       "origins": [
         "node_modules/@qwikest/icons/lib/bs.qwik.mjs"
-      ]
-    },
-    "q-z4e-CG4N.js": {
-      "size": 538,
-      "imports": [
-        "q-By_1o8vi.js",
-        "q-m2PSkFjv.js"
-      ],
-      "origins": [
-        "src/entry_root.js",
-        "src/s_3sccycdd1z0.js"
-      ],
-      "symbols": [
-        "s_3sccYCDd1Z0"
       ]
     }
   },
