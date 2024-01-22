@@ -10,7 +10,7 @@ dotenv.config()
 export default defineConfig(() => {
   return {
     plugins: [qwikCity(), qwikVite(), tsconfigPaths()],
-    base: process.env.PUBLIC_BASE_URL ?? "/",
+    base: process.env.PUBLIC_BASE_URL,
     preview: {
       headers: {
         "Cache-Control": "public, max-age=600",
