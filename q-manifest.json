@@ -1,5 +1,5 @@
 {
-  "manifestHash": "bb97wi",
+  "manifestHash": "xu7j1e",
   "symbols": {
     "s_02wMImzEAbk": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
@@ -53,8 +53,8 @@
       "captures": true,
       "parent": "s_PZswLDq46H4",
       "loc": [
-        920,
-        1270
+        921,
+        1271
       ]
     },
     "s_l6wsIrhHw4Q": {
@@ -81,8 +81,8 @@
       "captures": true,
       "parent": "s_xYL1qOwPyDI",
       "loc": [
-        762,
-        1114
+        763,
+        1115
       ]
     },
     "s_3lb9EjxI5sA": {
@@ -95,7 +95,7 @@
       "captures": false,
       "loc": [
         256,
-        7155
+        7157
       ]
     },
     "s_3sccYCDd1Z0": {
@@ -199,7 +199,7 @@
       "captures": false,
       "loc": [
         318,
-        1722
+        1723
       ]
     },
     "s_TxCFOy819ag": {
@@ -342,7 +342,7 @@
       "captures": false,
       "loc": [
         329,
-        1244
+        1245
       ]
     },
     "s_RPDJAz33WLA": {
@@ -436,8 +436,8 @@
       "captures": false,
       "parent": "s_3lb9EjxI5sA",
       "loc": [
-        5022,
-        5176
+        5023,
+        5178
       ]
     },
     "s_BPhRZzC0M9U": {
@@ -521,7 +521,7 @@
       "parent": "s_xYL1qOwPyDI",
       "loc": [
         600,
-        740
+        741
       ]
     },
     "s_IY5gY0QwJdY": {
@@ -549,7 +549,7 @@
       "parent": "s_3lb9EjxI5sA",
       "loc": [
         3967,
-        4118
+        4119
       ]
     },
     "s_K4z8nDmX6Us": {
@@ -633,7 +633,7 @@
       "parent": "s_PZswLDq46H4",
       "loc": [
         758,
-        898
+        899
       ]
     },
     "s_Q6pH9Kv8TFg": {
