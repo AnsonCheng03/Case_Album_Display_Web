@@ -1,67 +1,210 @@
 [
+   {
+    "path": "/cases/apartment/青衣盈翠半島",
+    "Images": ["DSC08960.jpg","DSC08967.jpg","DSC08972.jpg","DSC08949.jpg","DSC08977.jpg","DSC08839.jpg","DSC08837.jpg","DSC08830.jpg","DSC08859.jpg","DSC08867.jpg","DSC08874.jpg","DSC08892.jpg","DSC08895.jpg","DSC08887.jpg","DSC08881.jpg","DSC08920.jpg","DSC08918.jpg","DSC08935.jpg","DSC08927.jpg","DSC08939.jpg","DSC08942.jpg"],
+    "type": "住宅",
+    "name": "青衣盈翠半島",
+    "data": "653呎私樓 全屋裝修",
+    "Cover": "DSC08960.jpg",
+    "Highlight": ["DSC08960.jpg"],
+    "Slideshow": ["DSC08960.jpg"],
+    "Text": "2023年 實用面積~653呎私樓 全屋裝修"
+   },
+   {
+    "path": "/cases/apartment/坑口蔚藍灣畔",
+    "Images": ["DSC08599.jpg","DSC08602.jpg","DSC08609.jpg","DSC08603.jpg","DSC08608.jpg","DSC08555.jpg","DSC08567.jpg","DSC08591.jpg","DSC08589.jpg","DSC08586.jpg","DSC08590.jpg","DSC08468.jpg","DSC08473.jpg","DSC08485.jpg","DSC08508.jpg","DSC08512.jpg","DSC08546.jpg","DSC08552.jpg","DSC08501.jpg","DSC08497.jpg","DSC08450.jpg","DSC08457.jpg","DSC08527.jpg","DSC08537.jpg","DSC08580.jpg"],
+    "type": "住宅",
+    "name": "坑口蔚藍灣畔",
+    "data": "950呎私樓 全屋裝修",
+    "Cover": "DSC08599.jpg",
+    "Highlight": ["DSC08599.jpg"],
+    "Slideshow": [],
+    "Text": "2023年 實用面積~950呎私樓 全屋裝修"
+   },
+   {
+    "path": "/cases/apartment/調景嶺維景灣畔15座",
+    "Images": ["Kitchen 1.jpg","Kitchen 3.jpg","Kitchen 5.jpg","Kitchen 6.jpg","Living 1.jpg","Living 3.jpg","Living 4.jpg","Living 5.jpg","Bath.jpg","Bath 1.jpg"],
+    "type": "住宅",
+    "name": "調景嶺維景灣畔15座",
+    "data": "600呎私樓 全屋裝修",
+    "Cover": "Kitchen 1.jpg",
+    "Highlight": ["Kitchen 1.jpg"],
+    "Slideshow": [],
+    "Text": "2023年 實用面積~600呎私樓 全屋裝修"
+   },
+   {
+    "path": "/cases/apartment/將軍澳廣場",
+    "Images": ["DSC06040.jpg","DSC06044.jpg","DSC06038.jpg","DSC06042.jpg","DSC06046.jpg","DSC06032.jpg","DSC06031.jpg","DSC06052.jpg","DSC06051.jpg","DSC05000.jpg","DSC06019.jpg","DSC06021.jpg","DSC06002.jpg","DSC06011.jpg","DSC06013.jpg","DSC06062.jpg","DSC06064.jpg","DSC06071.jpg"],
+    "type": "住宅",
+    "name": "將軍澳廣場",
+    "data": "739呎私樓 全屋裝修",
+    "Cover": "DSC06040.jpg",
+    "Highlight": ["DSC06040.jpg"],
+    "Slideshow": ["DSC06040.jpg"],
+    "Text": "2023年 實用面積~739呎私樓 全屋裝修"
+   },
+   {
+    "path": "/cases/apartment/黃埔海逸豪園",
+    "Images": ["G1.jpg","G3.jpg","G4.jpg","G5.jpg","G8.jpg","G7.jpg","G9.jpg","G11.jpg"],
+    "type": "住宅",
+    "name": "黃埔海逸豪園",
+    "data": "553呎私樓 全屋裝修",
+    "Cover": "G1.jpg",
+    "Highlight": ["G1.jpg"],
+    "Slideshow": [],
+    "Text": "2023年 實用面積~553呎私樓 全屋裝修"
+   },
+   {
+    "path": "/cases/apartment/荃灣愉景新城",
+    "Images": ["1.jpg","2.jpg","4.jpg","5.jpg","7.jpg","9.jpg","17.jpg","18.jpg","15.jpg"],
+    "type": "住宅",
+    "name": "荃灣愉景新城",
+    "data": "450呎私樓 全屋裝修",
+    "Cover": "1.jpg",
+    "Highlight": ["1.jpg"],
+    "Slideshow": [],
+    "Text": "2022年 實用面積~450呎私樓 全屋裝修"
+   },
+   {
+    "path": "/cases/apartment/調景嶺維景灣畔6座",
+    "Images": ["DSC09129.jpg","DSC09131.jpg","DSC09138.jpg","DSC09136.jpg","DSC09119.jpg","DSC09158.jpg","DSC09122.jpg","DSC09088.jpg","DSC09094.jpg","DSC09104.jpg"],
+    "type": "住宅",
+    "name": "調景嶺維景灣畔6座",
+    "data": "660呎私樓 全屋裝修",
+    "Cover": "DSC09129.jpg",
+    "Highlight": ["DSC09129.jpg"],
+    "Slideshow": [],
+    "Text": "2022年 實用面積~660呎私樓 全屋裝修"
+  },
+  {
+    "path": "/cases/apartment/薄扶林花園",
+    "Images": ["DSC06440.jpg","DSC06506.jpg","DSC06507.jpg","DSC06422.jpg","DSC06513.jpg","DSC06394.jpg","DSC06397.jpg","DSC06402.jpg","DSC06416.jpg","DSC06380.jpg","DSC06482.jpg","DSC06460.jpg","DSC06511.jpg"],
+    "type": "住宅",
+    "name": "薄扶林花園",
+    "data": "702呎私樓 全屋裝修",
+    "Cover": "DSC06440.jpg",
+    "Highlight": ["DSC06440.jpg"],
+    "Slideshow": [],
+    "Text": "2022年 實用面積~702呎私樓 全屋裝修"
+  },
+  {
+    "path": "/cases/apartment/北角富麗園",
+    "Images": ["DSC04953-.jpg","DSC04928.jpg","DSC04958.jpg","DSC04876.jpg","DSC04878.jpg","DSC04893.jpg","DSC04885.jpg","DSC04890.jpg","DSC04899.jpg","DSC04905.jpg","DSC04909.jpg","DSC04904.jpg","DSC04924.jpg","DSC04963.jpg","DSC04919.jpg"],
+    "type": "住宅",
+    "name": "北角富麗園",
+    "data": "837呎私樓 全屋裝修",
+    "Cover": "DSC04953-.jpg",
+    "Highlight": ["DSC04953-.jpg"],
+    "Slideshow": [],
+    "Text": "2022年 實用面積~837呎私樓 全屋裝修"
+  },
+  {
+    "path": "/cases/apartment/粉嶺山麗苑",
+    "Images": ["IMG_4136.jpg","IMG_4140.jpg","IMG_4143.jpg","IMG_4130.jpg","IMG_4132.jpg","IMG_4134.jpg","IMG_4124.jpg","IMG_4119.jpg","IMG_4149.jpg"],
+    "type": "住宅",
+    "name": "粉嶺山麗苑",
+    "data": "385呎居屋 全屋裝修",
+    "Cover": "IMG_4136.jpg",
+    "Highlight": ["IMG_4136.jpg"],
+    "Slideshow": [],
+    "Text": "2022年 實用面積~385呎居屋 全屋裝修"
+  },
+  {
+    "path": "/cases/apartment/黃大仙鳳德邨",
+    "Images": ["DSC04036.jpg","DSC04041.jpg","DSC04043.jpg","DSC04045.jpg","DSC04032.jpg","DSC04034.jpg","DSC04057.jpg"],
+    "type": "住宅",
+    "name": "黃大仙鳳德邨",
+    "data": "338呎居屋 全屋裝修",
+    "Cover": "DSC04036.jpg",
+    "Highlight": ["DSC04036.jpg"],
+    "Slideshow": [],
+    "Text": "2022年 實用面積~338呎居屋 全屋裝修"
+  },
   {
     "path": "/cases/apartment/西營盤俊傑花園",
-    "Images": [
-      "IMG_8724.jpg",
-      "IMG_8724.jpg",
-      "IMG_8724.jpg",
-      "IMG_8717.jpg",
-      "IMG_8724.jpg",
-      "IMG_8724.jpg",
-      "IMG_8724.jpg",
-      "IMG_8717.jpg",
-      "IMG_8724.jpg",
-      "IMG_8724.jpg",
-      "IMG_8724.jpg",
-      "IMG_8717.jpg",
-      "IMG_8724.jpg",
-      "IMG_8724.jpg",
-      "IMG_8724.jpg",
-      "IMG_8717.jpg",
-      "IMG_8724.jpg",
-      "IMG_8724.jpg",
-      "IMG_8717.jpg",
-      "IMG_8724.jpg",
-      "IMG_8724.jpg",
-      "IMG_8717.jpg"
-    ],
+    "Images": ["IMG_8717.jpg","IMG_8714.jpg","IMG_8719.jpg","IMG_8749.jpg","IMG_8693.jpg","IMG_8691.jpg","IMG_8697.jpg","IMG_8700.jpg","IMG_8704.jpg","IMG_8724.jpg","IMG_8727.jpg"],
     "type": "住宅",
     "name": "西營盤俊傑花園",
-    "data": "600呎",
+    "data": "626呎私樓 全屋裝修",
     "Cover": "IMG_8717.jpg",
-    "Highlight": [
-      "IMG_8717.jpg",
-      "IMG_8724.jpg",
-      "IMG_8717.jpg",
-      "IMG_8724.jpg"
-    ],
-    "Slideshow": [
-      "IMG_8717.jpg",
-      "IMG_8724.jpg",
-      "IMG_8717.jpg",
-      "IMG_8724.jpg"
-    ],
-    "Text": "2022年 實用面積~600尺 全屋裝修"
+    "Highlight": ["IMG_8717.jpg"],
+    "Slideshow": ["IMG_8717.jpg"],
+    "Text": "2022年 實用面積~626呎私樓 全屋裝修"
   },
   {
     "path": "/cases/apartment/何文田俊民苑",
-    "Images": ["DSC07717.jpg", "DSC07774.jpg"],
+    "Images": ["DSC07717.jpg","DSC07783.jpg","DSC07748.jpg","DSC07710.jpg","DSC07785.jpg","DSC07804.jpg","DSC07760.jpg","DSC07771.jpg","DSC07740.jpg","DSC07809.jpg","DSC07790.jpg","DSC07793.jpg"],
     "type": "住宅",
     "name": "何文田俊民苑",
-    "data": "600呎",
+    "data": "600呎私樓 全屋裝修",
     "Cover": "DSC07717.jpg",
     "Highlight": ["DSC07717.jpg"],
     "Slideshow": ["DSC07717.jpg"],
-    "Text": "2022年 實用面積~600尺 全屋裝修"
+    "Text": "2022年 實用面積~600呎私樓 全屋裝修"
+   },
+   {
+    "path": "/cases/apartment/香港仔珍寶大廈",
+    "Images": ["004.jpg","002.jpg","001.jpg","011.jpg","008.jpg","010.jpg"],
+    "type": "住宅",
+    "name": "香港仔珍寶大廈",
+    "data": "335呎私樓 全屋裝修",
+    "Cover": "004.jpg",
+    "Highlight": ["004.jpg"],
+    "Slideshow": [],
+    "Text": "2022年 實用面積~335呎私樓 全屋裝修"
+   }, 
+   {
+    "path": "/cases/apartment/馬鞍山錦暉苑",
+    "Images": ["IMG_0045.jpeg","IMG_0043.jpeg","IMG_0044.jpeg","IMG_0040.jpeg","IMG_0038.jpeg","IMG_0046.jpeg","IMG_0049.jpeg"],
+    "type": "住宅",
+    "name": "馬鞍山錦暉苑",
+    "data": "380呎居屋 全屋裝修",
+    "Cover": "IMG_0045.jpeg",
+    "Highlight": ["IMG_0045.jpeg"],
+    "Slideshow": [],
+    "Text": "2021年 實用面積~380呎居屋 全屋裝修"
+  },
+  {
+    "path": "/cases/apartment/沙田豐盛苑",
+    "Images": ["DSC03982.jpg","DSC04005.jpg","DSC03968.jpg","DSC04023.jpg","DSC03996.jpg","DSC04002.jpg"],
+    "type": "住宅",
+    "name": "沙田豐盛苑",
+    "data": "380呎居屋 全屋裝修",
+    "Cover": "DSC03982.jpg",
+    "Highlight": ["DSC03982.jpg"],
+    "Slideshow": [],
+    "Text": "2021年 實用面積~380呎居屋 全屋裝修"
+  },      
+  {
+    "path": "/cases/apartment/沙田帝堡城8座",
+    "Images": ["G8.jpg","D8.jpg","A8.jpg","I8.jpg","J8.jpg","N8.jpg"],
+    "type": "住宅",
+    "name": "沙田帝堡城8座",
+    "data": "450呎私樓 全屋裝修",
+    "Cover": "G8.jpg",
+    "Highlight": ["G8.jpg"],
+    "Slideshow": [],
+    "Text": "2021年 實用面積~450呎私樓 全屋裝修"
+  },  
+  {
+    "path": "/cases/apartment/沙田帝堡城3座",
+    "Images": ["J.jpg","L.jpg","B.jpg","K.jpg","H.jpg"],
+    "type": "住宅",
+    "name": "沙田帝堡城3座",
+    "data": "450呎私樓 全屋裝修",
+    "Cover": "J.jpg",
+    "Highlight": ["J.jpg"],
+    "Slideshow": [],
+    "Text": "2021年 實用面積~450呎私樓 局部裝修"
   },
   {
     "path": "/cases/store/ORION荔枝角商鋪",
-    "Images": ["DSC07001.jpg", "DSC07003.jpg"],
+    "Images": ["DSC07001.jpg","DSC07003.jpg","DSC06991.jpg","DSC06994.jpg","DSC07008.jpg","DSC07034.jpg","DSC07088.jpg","DSC07005.jpg","DSC07019.jpg","DSC06972.jpg"],
     "type": "商鋪",
     "name": "ORION荔枝角商鋪",
-    "Cover": "DSC07003.jpg",
-    "Highlight": ["DSC07001.jpg", "DSC07003.jpg"],
-    "Slideshow": ["DSC07001.jpg", "DSC07003.jpg"],
-    "Text": "2021年 實用面積~1700尺 雙層全鋪裝修"
+    "Cover": "DSC07001.jpg",
+    "Highlight": ["DSC07001.jpg"],
+    "Slideshow": ["DSC07001.jpg"],
+    "Text": "2021年 實用面積~1700呎 雙層全鋪裝修"
   }
 ]
