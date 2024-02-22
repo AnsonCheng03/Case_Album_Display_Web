@@ -47,50 +47,52 @@ export default component$(({ photos, activeType, name }: any) => {
   return (
     <section class={styles.selectCase}>
       <div class={styles.container}>
-        {distinctCaseTypes.map((type: any) => {
-          return (
-            <div
-              class={
-                type == activeType.value
-                  ? [styles.caseType, styles.active]
-                  : styles.caseType
-              }
-              key={type}
-              onClick$={() => {
-                const changeType = activeType.value !== type;
-                // change the active type
-                activeType.value = type;
-                // push the case to the history
-                if (changeType)
-                  setTimeout(() => {
-                    jumpToCaseByQuery(
-                      photos.value.find((photo: any) => photo.type == type)
-                        ?.name,
-                      false
+        <div class={styles.wrapper}>
+          {distinctCaseTypes.map((type: any) => {
+            return (
+              <div
+                class={
+                  type == activeType.value
+                    ? [styles.caseType, styles.active]
+                    : styles.caseType
+                }
+                key={type}
+                onClick$={() => {
+                  const changeType = activeType.value !== type;
+                  // change the active type
+                  activeType.value = type;
+                  // push the case to the history
+                  if (changeType)
+                    setTimeout(() => {
+                      jumpToCaseByQuery(
+                        photos.value.find((photo: any) => photo.type == type)
+                          ?.name,
+                        false
+                      );
+                    }, 300);
+                }}
+              >
+                <h3>{type}</h3>
+                <div class={styles.caseTypeNavigation}>
+                  {photos.value.map((photo: any) => {
+                    return (
+                      photo.type == type && (
+                        <h3
+                          onClick$={() => {
+                            //Jump to the case
+                            jumpToCaseByQuery(photo.name);
+                          }}
+                        >
+                          {photo.name}
+                        </h3>
+                      )
                     );
-                  }, 300);
-              }}
-            >
-              <h3>{type}</h3>
-              <div class={styles.caseTypeNavigation}>
-                {photos.value.map((photo: any) => {
-                  return (
-                    photo.type == type && (
-                      <h3
-                        onClick$={() => {
-                          //Jump to the case
-                          jumpToCaseByQuery(photo.name);
-                        }}
-                      >
-                        {photo.name}
-                      </h3>
-                    )
-                  );
-                })}
+                  })}
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </section>
   );

@@ -18,6 +18,13 @@
   cursor: pointer;
 }
 
+.selectCase .wrapper {
+  max-height: calc(90vh - 2.5rem - 100px);
+  max-height: calc(90dvh - 2.5rem - 100px);
+  overflow: auto;
+  overscroll-behavior: none;
+}
+
 .selectCase h3 {
   margin: 0;
   font-size: 1.1em;
@@ -30,9 +37,6 @@
   border-bottom: 1px solid #f3f1f3;
   padding: 1rem;
   background-color: #fff;
-  max-height: calc(80vh - 2.5rem - 70px);
-  max-height: calc(80dvh - 2.5rem - 70px);
-  overflow: auto;
 }
 
 .selectCase .caseType:first-child {
@@ -69,7 +73,7 @@
 .selectCase .caseType .caseTypeNavigation h3 {
   color: rgb(100, 100, 100);
   height: 50px;
-  padding: 10px 0;
+  padding: 5px 0;
   display: flex;
   align-items: center;
   border-top: 1px solid #f3f1f3;
