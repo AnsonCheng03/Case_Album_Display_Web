@@ -1,0 +1,7 @@
+import{n,q as s,_ as a,c as m,o as f,E as _,K as r,l as E,$ as l,w as P}from"./q-WDKFMl5r.js";import{a as v}from"./q-Dtzzaa8R.js";const I=n(s(()=>a(()=>import("./q-udm1TLCf.js"),__vite__mapDeps([])),"s_Oiogz3xVO64")),O=n(s(()=>a(()=>import("./q-q5EYmJqV.js"),__vite__mapDeps([])),"s_jYyS9IWa9Yk")),T=n(s(()=>a(()=>import("./q-B6XSkx27.js"),__vite__mapDeps([])),"s_c4GS49xCdTA"));var g={};const A=()=>{const t=v(),e=m([[]]),o=typeof process<"u"&&!0&&g.PUBLIC_BASE_URL||"";return f(s(()=>a(()=>Promise.resolve().then(()=>u),void 0),"s_zqpXT8B27s0",[o,s(()=>a(()=>Promise.resolve().then(()=>u),void 0),"s_HOkCW92ocKc",[o,t]),e,t])),_(E,{children:[_(T,{photos:e,[r]:{photos:r}},3,"H1_0"),_(O,{photos:e,[r]:{photos:r}},3,"H1_1"),_(I,null,3,"H1_2")]},1,"H1_3")},w=()=>{const[t,e]=l();return fetch(e.url.origin+`${t}/Images.json?t=`+Date.now(),{cache:"no-store"}).then(o=>{if(o.ok)return o;window&&window.location.reload()})},H=async()=>{const[t,e,o,c]=l(),d=await e();try{const h=(await d.json()).map(i=>({...i,path:c.url.origin+`${t}/`+i.path}));o.value=h}catch{o.value=[[]]}},u=Object.freeze(Object.defineProperty({__proto__:null,_hW:P,s_HOkCW92ocKc:w,s_xYL1qOwPyDI:A,s_zqpXT8B27s0:H},Symbol.toStringTag,{value:"Module"}));export{P as _hW,w as s_HOkCW92ocKc,A as s_xYL1qOwPyDI,H as s_zqpXT8B27s0};
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = []
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}
