@@ -39,7 +39,7 @@ jobs:
 
       - name: "Create env file"
         run: |
-          echo "PUBLIC_BASE_URL=\"/Skylight_Engineering\"" > .env
+          echo "PUBLIC_BASE_URL=\"/Case_Album_Display_Web\"" > .env
 
       - name: Clean install dependencies
         run: yarn
@@ -54,4 +54,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/Skylight_Engineering
+          publish_dir: ./dist/Case_Album_Display_Web

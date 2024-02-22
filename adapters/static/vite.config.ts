@@ -15,7 +15,7 @@ export default extendConfig(baseConfig, () => {
     },
     plugins: [
       staticAdapter({
-        origin: process.env.PUBLIC_BASE_ORIGIN ?? 'https://ansoncheng03.github.io/Skylight_Engineering/',
+        origin: process.env.PUBLIC_BASE_ORIGIN ?? 'https://ansoncheng03.github.io/Case_Album_Display_Web/',
       }),
     ],
   };
