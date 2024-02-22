@@ -21,9 +21,11 @@ export default component$(() => {
     return fetch(
       location.url.origin + `${basePATH}/Images.json` + "?t=" + Date.now(),
       { cache: "no-store" }
-    ).catch(() => {
-      // refresh the page if the fetch fails
-      window.location.reload();
+    ).then((res) => {
+      if (res.ok) {
+        return res;
+      }
+      if (window) window.location.reload();
     });
   });
 
