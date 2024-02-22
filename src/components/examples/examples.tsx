@@ -10,6 +10,14 @@ export default component$(({ photos }: any) => {
       (process as any).env.NODE_ENV != "development" &&
       process.env.PUBLIC_BASE_URL) ||
     "";
+  console.log(
+    "basePATH",
+    basePATH,
+    "process",
+    process.env.NODE_ENV,
+    "process.env.PUBLIC_BASE_URL",
+    process.env.PUBLIC_BASE_URL
+  );
   return (
     <section class={styles.examples}>
       <h2>案例分享</h2>
