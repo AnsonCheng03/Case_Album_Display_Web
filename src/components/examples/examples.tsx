@@ -8,18 +8,9 @@ export default component$(({ photos }: any) => {
   const basePATH =
     (typeof process !== "undefined" &&
       (process as any).env.NODE_ENV != "development" &&
-      (process.env.PUBLIC_BASE_URL ?? import.meta.env.PUBLIC_API_URL)) ||
+      process.env.PUBLIC_BASE_URL) ||
     "";
-  console.log(
-    "basePATH",
-    basePATH,
-    "process",
-    process.env.NODE_ENV,
-    "process.env.PUBLIC_BASE_URL",
-    process.env.PUBLIC_BASE_URL,
-    "import.meta.env.PUBLIC_API_URL",
-    import.meta.env.PUBLIC_API_URL
-  );
+
   return (
     <section class={styles.examples}>
       <h2>案例分享</h2>
