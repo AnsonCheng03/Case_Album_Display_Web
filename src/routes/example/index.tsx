@@ -21,7 +21,10 @@ export default component$(() => {
     return fetch(
       location.url.origin + `${basePATH}/Images.json` + "?t=" + Date.now(),
       { cache: "no-store" }
-    );
+    ).catch(() => {
+      // refresh the page if the fetch fails
+      window.location.reload();
+    });
   });
 
   useVisibleTask$(async () => {
