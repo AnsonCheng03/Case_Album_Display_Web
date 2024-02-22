@@ -26,7 +26,7 @@ export default component$(() => {
   useVisibleTask$(async () => {
     const res = await fetchImageSource();
     try {
-      const data = await res.json();
+      const data = await (res as Response).json();
       const modifiedData = data.map((item: any) => ({
         ...item,
         path: location.url.origin + `${basePATH}/` + item.path,
