@@ -1,10 +1,6 @@
-# Qwik City App ⚡️
+# Case_Album_Display_Web ⚡️
 
-- [Qwik Docs](https://qwik.builder.io/)
-- [Discord](https://qwik.builder.io/chat)
-- [Qwik GitHub](https://github.com/BuilderIO/qwik)
-- [@QwikDev](https://twitter.com/QwikDev)
-- [Vite](https://vitejs.dev/)
+This website is done for the **Skylight Engineering Company**. It shows all the images of cases and display them.
 
 ---
 
@@ -58,14 +54,10 @@ yarn preview # or `yarn preview`
 
 ## Production
 
-The production build will generate client and server modules by running both client and server build commands. Additionally, the build command will use Typescript to run a type check on the source code.
+<https://ansoncheng03.github.io/Skylight_Engineering/>
 
-```shell
-yarn build # or `yarn build`
-```
-
-## Static Site Generator (Node.js)
-
-```
-yarn build.server
-```
+- [Qwik Docs](https://qwik.builder.io/)
+- [Discord](https://qwik.builder.io/chat)
+- [Qwik GitHub](https://github.com/BuilderIO/qwik)
+- [@QwikDev](https://twitter.com/QwikDev)
+- [Vite](https://vitejs.dev/)
