@@ -1,5 +1,5 @@
 {
-  "manifestHash": "865k09",
+  "manifestHash": "jud5lj",
   "symbols": {
     "s_02wMImzEAbk": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
@@ -67,8 +67,8 @@
       "captures": true,
       "parent": "s_xYL1qOwPyDI",
       "loc": [
-        877,
-        1243
+        878,
+        1244
       ]
     },
     "s_3lb9EjxI5sA": {
@@ -185,7 +185,7 @@
       "captures": false,
       "loc": [
         318,
-        1851
+        1852
       ]
     },
     "s_TxCFOy819ag": {
@@ -328,7 +328,7 @@
       "captures": false,
       "loc": [
         329,
-        1373
+        1374
       ]
     },
     "s_RPDJAz33WLA": {
@@ -520,8 +520,8 @@
       "captures": true,
       "parent": "s_PZswLDq46H4",
       "loc": [
-        1035,
-        1399
+        1036,
+        1400
       ]
     },
     "s_HOkCW92ocKc": {
@@ -535,7 +535,7 @@
       "parent": "s_xYL1qOwPyDI",
       "loc": [
         600,
-        855
+        856
       ]
     },
     "s_IY5gY0QwJdY": {
@@ -633,7 +633,7 @@
       "parent": "s_PZswLDq46H4",
       "loc": [
         758,
-        1013
+        1014
       ]
     },
     "s_Q6pH9Kv8TFg": {
