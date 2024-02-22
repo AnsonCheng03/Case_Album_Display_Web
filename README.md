@@ -1,6 +1,8 @@
 # Case_Album_Display_Web ⚡️
 
 This website is done for the **Skylight Engineering Company**. It shows all the images of cases and display them.
+<https://ansoncheng03.github.io/Case_Album_Display_Web/>
+<https://skylightengineering.com.hk>
 
 ---
 
@@ -54,7 +56,7 @@ yarn preview # or `yarn preview`
 
 ## Production
 
-<https://ansoncheng03.github.io/Skylight_Engineering/>
+<https://skylightengineering.com.hk>
 
 - [Qwik Docs](https://qwik.builder.io/)
 - [Discord](https://qwik.builder.io/chat)
