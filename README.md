@@ -1,8 +1,8 @@
 # Case_Album_Display_Web ⚡️
 
 This website is done for the **Skylight Engineering Company**. It shows all the images of cases and display them.
-<https://ansoncheng03.github.io/Case_Album_Display_Web/>
-<https://skylightengineering.com.hk>
+- Github Pages (Demo): <https://ansoncheng03.github.io/Case_Album_Display_Web/>
+- Production: <https://skylightengineering.com.hk>
 
 ---
 
