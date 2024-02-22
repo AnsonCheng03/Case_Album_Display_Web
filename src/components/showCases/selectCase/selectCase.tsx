@@ -18,7 +18,7 @@ export default component$(({ photos, activeType, name }: any) => {
               "?type=" +
               activeType.value +
               "&name=" +
-              name,
+              name
           );
           //scroll to case below navigation bar
           window.scrollTo({
@@ -39,7 +39,9 @@ export default component$(({ photos, activeType, name }: any) => {
   });
 
   useVisibleTask$(() => {
-    jumpToCaseByQuery(name);
+    setTimeout(() => {
+      jumpToCaseByQuery(name);
+    }, 300);
   });
 
   return (
@@ -64,7 +66,7 @@ export default component$(({ photos, activeType, name }: any) => {
                     jumpToCaseByQuery(
                       photos.value.find((photo: any) => photo.type == type)
                         ?.name,
-                      false,
+                      false
                     );
                   }, 300);
               }}

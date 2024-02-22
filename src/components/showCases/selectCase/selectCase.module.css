@@ -30,6 +30,9 @@
   border-bottom: 1px solid #f3f1f3;
   padding: 1rem;
   background-color: #fff;
+  max-height: calc(80vh - 2.5rem - 70px);
+  max-height: calc(80dvh - 2.5rem - 70px);
+  overflow: auto;
 }
 
 .selectCase .caseType:first-child {
