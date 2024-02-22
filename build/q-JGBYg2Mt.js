@@ -1,7 +1,0 @@
-import{V as c,y as s,a,o as m,W as P,j as _,K as r,z as f,l,i as v}from"./q-m2PSkFjv.js";import{a as E}from"./q-By_1o8vi.js";const I=c(s(()=>a(()=>import("./q-eqIJThcC.js"),__vite__mapDeps([])),"s_Oiogz3xVO64")),O=c(s(()=>a(()=>import("./q-sEJPsozA.js"),__vite__mapDeps([])),"s_jYyS9IWa9Yk")),T=c(s(()=>a(()=>import("./q-QClOv6cT.js"),__vite__mapDeps([])),"s_c4GS49xCdTA"));var g={};const A=()=>{const e=E(),o=m([[]]),t=typeof process<"u"&&!0&&g.PUBLIC_BASE_URL||"";return P(s(()=>a(()=>Promise.resolve().then(()=>u),void 0),"s_zqpXT8B27s0",[t,s(()=>a(()=>Promise.resolve().then(()=>u),void 0),"s_HOkCW92ocKc",[t,e]),o,e])),_(f,{children:[_(T,{photos:o,[r]:{photos:r}},3,"H1_0"),_(O,{photos:o,[r]:{photos:r}},3,"H1_1"),_(I,null,3,"H1_2")]},1,"H1_3")},y=()=>{const[e,o]=l();return fetch(o.url.origin+`${e}/Images.json?t=`+Date.now(),{cache:"no-store"})},H=async()=>{const[e,o,t,n]=l(),p=await o();try{const h=(await p.json()).map(i=>({...i,path:n.url.origin+`${e}/`+i.path}));t.value=h}catch{t.value=[[]]}},u=Object.freeze(Object.defineProperty({__proto__:null,_hW:v,s_HOkCW92ocKc:y,s_xYL1qOwPyDI:A,s_zqpXT8B27s0:H},Symbol.toStringTag,{value:"Module"}));export{v as _hW,y as s_HOkCW92ocKc,A as s_xYL1qOwPyDI,H as s_zqpXT8B27s0};
-function __vite__mapDeps(indexes) {
-  if (!__vite__mapDeps.viteFileDeps) {
-    __vite__mapDeps.viteFileDeps = []
-  }
-  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
-}
